@@ -1,0 +1,145 @@
+body{
+  display: flex; 
+  font-family: 'Source Code Pro', monospace;
+  background-image:url("Hacker (11).gif");
+ 
+}
+.header_anim h1{
+      position: relative;
+      text-transform: uppercase;
+      padding: 2.6px;
+      left: 12px;
+      letter-spacing: 6px;
+      font-size: 30px;;
+      text-decoration: none;
+      color: white;
+      display: inline-block;
+      background-size: ;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent;
+      -ms-background-clip: text;
+      -ms-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+      background-image: linear-gradient(45deg, 
+                        #a9ff77, 
+                        rgb(167, 233, 15),
+                        #FF1361,
+                        #FFF800);
+      animation: .8s shake infinite alternate;
+    }
+
+.middle_menu li {
+      border: 6px solid green;
+      border-width: 2px;
+      padding: 12px;
+      position: relative;
+      text-transform: uppercase;      
+      letter-spacing: 12px;
+      font-size: 16px;;
+      text-decoration: none;
+      color: white;
+      display:inline-flex;
+      border-block-end-color: 
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent;
+      -ms-background-clip: text;
+      -ms-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+      background-image: linear-gradient(45deg, 
+                        #a9ff77, 
+                        rgb(167, 233, 15),
+                        #FF1361,
+                        #FFF800);
+      animation: .9s shake infinite alternate;
+}
+.middle_menu li:hover{
+color: red;
+background-color: gray;
+}
+
+.middle_menu ul {
+list-style: none;
+top: 50%;
+position: fixed;
+left: 38%;
+
+}
+     
+@keyframes shake {
+      0% { transform: skewX(-15deg); }
+      5% { transform: skewX(15deg); }
+      10% { transform: skewX(-15deg); }
+      15% { transform: skewX(15deg); }
+      20% { transform: skewX(0deg); }
+      100% { transform: skewX(0deg); }  
+}
+
+
+* {
+margin: 0;
+  padding: 0;
+list-style-type: none;
+}
+
+.header_anim ul{
+  display: inline-flex;
+  
+  left: 340px;
+width: auto;
+height: auto;
+  margin: auto;
+  padding: auto;
+  max-resolution:  www.ShareAppsCrack.com120px;
+  margin: auto;
+ position:relative;
+  float: right;
+
+
+justify-content: space-between;
+  text-align: center;
+}
+.header_anim li {
+padding: 1rem 2rem 1.15rem;
+text-transform: uppercase;
+cursor: pointer;
+color: #ebebeb;
+min-width: 80px;
+margin: auto;
+}
+
+.header_anim  li:hover {
+background-image: url('http://scottyzen.com/cp/button.png');
+background-size: 100% 100%;
+color: #27262c;
+animation: spring 300ms ease-out;
+text-shadow: 0 -1px 0 #ef816c;
+font-weight: bold;
+}
+.header_anim li:active {
+transform: translateY(4px);
+}
+
+@keyframes spring {
+15% {
+  -webkit-transform-origin: center center;
+  -webkit-transform: scale(1.2, 1.1);
+}
+40% {
+  -webkit-transform-origin: center center;
+  -webkit-transform: scale(0.95, 0.95);
+}
+75% {
+  -webkit-transform-origin: center center;
+  -webkit-transform: scale(1.05, 1);
+}
+100% {
+  -webkit-transform-origin: center center;
+  -webkit-transform: scale(1, 1);
+}
+}
