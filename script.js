@@ -60,7 +60,7 @@ $('#anni').on('click', function(){
 });
 $('#jadur').on('click', function(){
   
-  window.location.assign("https://fahadakash.itch.io");
+  window.location.assign("https://fahadakash.itch.io/jadur-sopno");
 
 
 
