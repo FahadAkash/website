@@ -93,3 +93,11 @@ $('#murikhan').on('click', function(){
 
 
 });
+$('#AntikMahmud').on('click', function(){
+  
+  window.location.assign("https://play.google.com/store/apps/details?id=com.TrimatiStudio.AntikMahmud");
+
+
+
+});
+
