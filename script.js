@@ -101,3 +101,10 @@ $('#AntikMahmud').on('click', function(){
 
 });
 
+$('#HospitalRush').on('click', function(){
+  
+  window.location.assign("https://fahadakash.itch.io/hospital-rush");
+
+
+
+});
