@@ -132,6 +132,7 @@ header .navbar ul{
 }
 
 
+
 header .navbar ul li a{
     display: block;
     padding:1rem;
@@ -184,6 +185,48 @@ header .navbar ul li a:hover{
     color:#eee;
     padding: 1rem 0;
 }
+
+
+
+
+
+.HeaderText{
+     
+    display: flex; 
+    justify-content: left; 
+    align-items: center;
+    font-family: monospace;
+    font-size: 1.22em; 
+    text-align: center;
+}
+.typing-container h1{
+ color: rgb(255, 255, 255);
+ font-weight: 100;
+  
+}
+.HeaderText span{
+    color: red; 
+}
+.HeaderText span::after{
+    content: '|';
+    animation-name: blinking; 
+    animation-duration: .71s; 
+    animation-iteration-count: infinite;
+}
+@keyframes blinking{
+    from{
+        color: transparent; 
+    }
+    to{
+        color: lightgrey; 
+    }
+}
+
+
+
+
+
+
 
 .about .row{
     display: flex;
