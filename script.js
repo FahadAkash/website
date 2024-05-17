@@ -39,7 +39,7 @@ $(document).ready(function(){
 
 $('#ugabugagame').on('click', function(){
   
-  window.location.assign("https://play.google.com/store/apps/details?id=com.TeamRevolution.UGABUGAMOBILE&hl=en&gl=US");
+  window.location.assign("https://fahadakash.itch.io/ugabuga");
 
 
 
@@ -104,6 +104,14 @@ $('#AntikMahmud').on('click', function(){
 $('#HospitalRush').on('click', function(){
   
   window.location.assign("https://fahadakash.itch.io/hospital-rush");
+
+
+
+});
+
+$('#angrybirds').on('click', function(){
+  
+  window.location.assign("https://fahadakash.itch.io/angry-bird-egg-mod");
 
 
 
