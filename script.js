@@ -4,7 +4,7 @@ var wordsToType = document.querySelector("span[words]").getAttribute("words").sp
             typingDelay = (parseInt(typer.getAttribute('typing-delay')) || 700);
     
 var currentWordIndex = 0, currentCharacterIndex = 0; 
-
+ 
 function type(){
 
     var wordToType = wordsToType[currentWordIndex%wordsToType.length];
